@@ -1,0 +1,12 @@
+body {
+    display: flexbox;
+    margin: 2.5em;
+}
+
+h1 {
+    text-align: center;
+}
+
+.video {
+    text-align: center;
+}
