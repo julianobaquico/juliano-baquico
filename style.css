@@ -1,37 +1,60 @@
 :root {
-    --fonte: "Poppins";
+    --fonte: "Gorditas";
+    --fonte-link: "Poppins";
+    --cor-fundo: #755139;
+    --branco: #F2EDD7;
 }
 
 body {
-    background-color: #6F4E37;
+    background-color: var(--cor-fundo);
 }
 
-.conteudo {
-    box-shadow: 0px 4px 4px rgb(0, 0, 0, 0, 0.25);
-    border-radius: 10px;
-    margin: 1em;
-    padding: 1em;
-}
-
-.pergunta {
-    font-family: var(--fonte);
-    font-size: 30px;
-    font-weight: 700;
-    color: #FFFFFF;
-    margin: 0.5em;
-}
-
-.caixa {
-    display: block;
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
     text-align: center;
-    margin: 0.5em;
-    margin: 0.5em 0 0.5em 0;
-    padding: 0.1em 0;
 }
 
-video {
-    border: 10px solid #FFFFFF;
-    padding: 5px solid #FFFFFF;
-    border-radius: 10px;
-    margin-bottom: 3px;
+.coffee {
+    display: flex;
+    justify-content: center;
+    margin-left: 1em;
+}
+
+.links {
+    margin-right: 1em;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--branco);
+    font-family: var(--fonte-link);
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0 0.25em;
+}
+
+.apresetacao {
+    width: 40vw;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 10em 0;
+}
+
+.photo {
+    max-width: 7em;
+    text-align: center;
+}
+
+.texto {
+    color: var(--branco);
+    font-family: var(--fonte);
+    font-size: 40px;
+    text-align: center;
+    padding: 0 11em;
 }
